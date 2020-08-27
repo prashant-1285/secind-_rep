@@ -9,8 +9,8 @@ int main( )
 {
 
     Mat img=imread("dog.jpeg");
-    namedWindow("Window",WINDOW_AUTOSIZE);
-    imshow("Window",img);
+    namedWindow("Windows",WINDOW_AUTOSIZE);
+    imshow("Windows",img);
     waitKey(0);
     destroyAllWindows();
     return 0;
